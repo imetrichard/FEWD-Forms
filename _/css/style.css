@@ -1,0 +1,150 @@
+/* Resetting HTML */
+html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, small, strong, b, i, ul, li, fieldset, form, label, article, footer, header, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, footer, header, nav, section, details, summary {display: block;}
+
+img {max-width: 100%;}
+
+html {overflow-y: scroll;}
+
+ul {list-style: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom;}
+.ie7 input[type="checkbox"] {vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+small {font-size: 85%;}
+
+strong {font-weight: bold;}
+
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {cursor: pointer;}
+
+button, input, select, textarea {margin: 0;}
+
+button {width: auto; overflow: visible;}
+
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/* Styles */
+html {
+  font-family: Verdana, san-serif;
+}
+
+body {
+  background-image: url('../assets/img/background.png');
+}
+
+main {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 53px;
+  border-radius: 12px;
+  border: solid 1px #2d2d2d;
+  background-color: rgba(255,255,255,0.3);
+}
+
+header {
+  text-align: center;
+  padding: 20px 20px;
+  border-radius: 12px 12px 0 0;
+  background-image: linear-gradient(bottom, rgb(174,173,175) 13%, rgb(235,235,235) 79%);
+  background-image: -o-linear-gradient(bottom, rgb(174,173,175) 13%, rgb(235,235,235) 79%);
+  background-image: -moz-linear-gradient(bottom, rgb(174,173,175) 13%, rgb(235,235,235) 79%);
+  background-image: -webkit-linear-gradient(bottom, rgb(174,173,175) 13%, rgb(235,235,235) 79%);
+  background-image: -ms-linear-gradient(bottom, rgb(174,173,175) 13%, rgb(235,235,235) 79%);
+}
+
+header h1 {
+  font-weight: 100;
+  color: #676767;
+  text-shadow: 0px 1px 0px #e5e5ee;
+}
+
+form {
+  padding: 25px;
+}
+
+.contact h2, .skills h2, .else h2 {
+  margin: 20px 0 10px 0;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  float: left;
+  margin: 7px 0;
+}
+
+.block {
+  display: block;
+}
+
+.number input {
+  width: 75px;
+}
+
+input, textarea, select {
+  margin: 5px 0;
+  background-color: #fff9e2;
+  border-radius: 4px;
+  color: #a9a9a9;
+  padding: 5px 0px 5px 7px;
+  border: solid 1px #b0b0b0;
+  font-size: 13px;
+}
+
+select {
+  margin-top: 19px;
+  color: black;
+}
+
+textarea {
+  width: 545px;
+  height: 100px;
+}
+
+input:focus {
+  background-color: white;
+}
+
+#areacode {
+  width: 75px;
+}
+
+.push {
+  position: relative;
+  left: 150px;
+}
+
+button {
+  margin-top: 20px;
+}

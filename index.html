@@ -1,0 +1,91 @@
+<!doctype html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>FEWD - Fun With Forms</title>
+
+	<meta name="title" content="FEWD - Fun With Forms" />
+	<meta name="description" content="Front End Web Development Project - Working With Forms" />
+	<meta name="author" content="Richard Enlow" />
+
+	<link rel="stylesheet" href="_/css/style.css" />
+
+</head>
+
+<body>
+
+
+    <main>
+        <header>
+          <h1>Course Application</h1>
+        </header>
+
+        <form>
+          <div class="contact">
+            <h2>Your Contact Info</h2>
+            <label for="#">Your Name</label>
+            <div class="block">
+              <input type="text" id="#" placeholder="First Name" name="first_name">
+              <input type="text" id="#" placeholder="Last Name" name="last_name">
+            </div>
+
+            <label for="#">Phone Number</label>
+            <div class="number block">
+              <input type="text" id="#" name="area_code"> -
+              <input type="text" id="#" name="prefix"> -
+              <input type="text" id="#" name="number">
+            </div>
+
+            <label for="#">Address</label>
+            <div class="block">
+              <input type="text" id="#" placeholder="Street Address" name="first_name">
+              <input type="text" id="#" placeholder="Address Line 2" name="first_name">
+            </div>
+            <div class="push block">
+              <input type="text" id="#" placeholder="City" name="first_name">
+              <input type="text" id="#" placeholder="State" name="first_name">
+              <input type="text" id="areacode" placeholder="Postal Code" name="first_name">
+          </div>
+
+          <div class="skills">
+            <h2>Skills & Interests</h2>
+            <label for="#">Course</label>
+            <select class="block">
+              <option value="none">Select One</option>
+              <optgroup label="Web Development">
+                <option value="xxxx">Front-End</option>
+                <option value="xxxx">Back-End</option>
+              </optgroup>
+              <optgroup label="Design">
+                <option value="xxxx">Visual Design</option>
+                <option value="xxxx">User Experience</option>
+              </optgroup>
+            </select>
+
+            <label for="#">Past Experience</label>
+            <textarea class="block">
+            </textarea>
+          </div>
+
+          <div class="else">
+            <h2>Anything Else?</h2>
+            <label for="#">Referral</label>
+            <select class="block">
+              <option value="none">None</option>
+              <option value="friend">Friend</option>
+              <option value="instruction">Instruction</option>
+              <option value="online">Online</option>
+            </select>
+
+
+            <label for="#">Comments</label>
+            <textarea class="block"></textarea>
+          </div>
+          <button type="button">Save Draft</button> <button type="button">Submit</button>
+        </form>
+    </main>
+
+</body>
+</html>
