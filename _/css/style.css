@@ -68,8 +68,8 @@ main {
   margin-right: auto;
   margin-top: 53px;
   border-radius: 12px;
-  border: solid 1px #2d2d2d;
-  background-color: rgba(255,255,255,0.3);
+  border: solid 1px #b7b7b7;
+  background-color: rgba(255,255,255,0.4);
 }
 
 header {
@@ -98,7 +98,7 @@ form {
 }
 
 label {
-  width: 150px;
+  width: 170px;
   display: inline-block;
   float: left;
   margin: 7px 0;
@@ -130,9 +130,14 @@ select {
 textarea {
   width: 545px;
   height: 100px;
+  margin-top: 15px;
 }
 
 input:focus {
+  background-color: white;
+}
+
+textarea:focus {
   background-color: white;
 }
 
@@ -142,9 +147,19 @@ input:focus {
 
 .push {
   position: relative;
-  left: 150px;
+  left: 170px;
 }
 
 button {
   margin-top: 20px;
+}
+
+.areacode, .prefix, .number {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.address {
+  width: 433px;
+  margin-bottom: 0;
 }
